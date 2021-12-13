@@ -1,0 +1,42 @@
+body{
+    font-family:"Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+h1{
+    margin: 0 auto;/*中央寄せ*/
+    margin-top:30px;/*上部余白*/
+    margin-bottom: 20px;/*下部余白*/
+    border-left: 4px red solid;/*左側4pxの赤色*/
+    background-color:#f1f1f1;/*見出しの背景色*/
+    padding: 5px 0 5px 15px;/*上5右0下5左15スペース*/
+    width: 500px;
+    font-size: 20px;
+}
+
+form{
+    margin: 0 auto;/*中応寄せ*/
+    background-color: #fbfbfb;/*form内背景色*/
+    border: 3px #ebebeb solid;/*太さ3px 単線で枠線*/
+    border-radius: 10px;/*角を丸く*/
+    width: 500px;
+}
+
+form div{
+    padding:15px;/*form内div全て 上下左右に15pxのスペース*/
+}
+
+.text,textarea,.dropdown{/*textクラスとtextareaとdropdownクラス全て*/
+    border: 1px solid #dfdfdf;/*囲んでいる線*/
+    padding: 5px;/*上下左右の余白*/
+    color: #999;/*文字色*/
+    background-color: #fff;/*入力部分の色*/
+}
+
+.submit{
+    border: 1px solid lightgray;
+    padding: 4px 10px;/*ボタンの余白（大きさ）*/
+    color: white;
+    background-color: #bfbfbf;
+    border-radius: 5px;/*角を丸く*/
+    border-bottom: solid 2px gray;/*枠線の下を2pxで鼠色*/
+}
